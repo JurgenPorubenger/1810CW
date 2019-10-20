@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Add Author
+    form(action='/1', method='POST')
+      input(type='text' name='author' placeholder='author')
+      input(type='submit' )
+  h1 Add Book
+    form(action='/2', method='POST')
+      input(type='text' name='book' placeholder='book' )
+      input(type='submit' )
+  h1 Add ID
+    form(action='/3', method='POST')
+      input(type='text' name='book' placeholder='book' )
+      input(type='text' name='author' placeholder='author')
+      input(type='submit')
