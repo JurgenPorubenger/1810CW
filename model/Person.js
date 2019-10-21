@@ -3,12 +3,11 @@ const  Schema = mongoose.Schema;
 
 
 const personSchema = new Schema({
-        _id: Schema.Types.ObjectId,
         name: String,
         age: Number,
-        stories: [{ type: Schema.Types.ObjectId, ref: 'Story' }]
+        stories: [{ type: Schema.Types.ObjectId, ref: 'StorySchema' }]
 });
 
 
-const Person = mongoose.model('Person', personSchema);
+const Person = mongoose.model('PersonSchema', personSchema);
 module.exports = Person;
