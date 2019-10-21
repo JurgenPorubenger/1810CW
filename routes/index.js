@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const authorModel = require('../model/Autors');
-const booksModel = require('../model/Books');
+const mongoose = require('mongoose');
+const Authors = require('../model/Person');
+const Story = require('../model/Story');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -9,12 +10,12 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/1', function(req, res, next) {
-    console.log(req.body);
-    const{author}=req.body;
-    const AuthorModel =new authorModel({
-      name: author
+    // console.log(req.body);
+    const{authorName}=req.body;
+    const author =new Authors({
+      name: authorName,
     });
-    AuthorModel.save()
+    author.save()
         .then(data => {
           console.log(data+'Save_Author');
           res.send('ok');
@@ -24,29 +25,42 @@ router.post('/1', function(req, res, next) {
 
 router.post('/2', function(req, res, next) {
   console.log(req.body);
-  const{book}=req.body;
-  const BookModel= new booksModel({
-    title:book
+  const{bookTitle}=req.body;
+  const story = new Story({
+    title:bookTitle,
   });
-  BookModel.save()
+  story.save()
       .then(data => {
-        console.log(data+'SAVE_BOOK');
+        console.log(data.author+'SAVE_STORY');
         res.send('ok');
       })
       .catch((err) => console.log(err));
 });
 
 router.post('/3', function(req, res, next) {
-  console.log(req.body);
-  const{book,author}=req.body;
-  authorModel.findOneAndUpdate({books:book}).then(data=>{
-    console.log(data.books);
-    res.send('ok');
+  const{bookTitle,authorName}=req.body;
+  let a = Authors.find({name:authorName});
+  let b = Story.find({title:bookTitle});
+  Promise.all([a,b]).then(data=>{
+    data[1][0].author=data[0][0]._id;
+    data[0][0].stories=data[1][0]._id;
+    return data;
+    // data[0].populate('Book').exec(function (err, story) {
+    //   if (err) return handleError(err);
+    //   console.log('The author is %s', story);
+    //   res.send('ok');
+      // prints "The author is Ian Fleming"
+    // });
+  }).then(data=> {
+    return data[0][0].populate('Story')
+    console.log()
   });
-  booksModel.findOneAndUpdate({authors:author}).then(data=>{
-    console.log(data.authors);
+
     res.send('ok');
-  });
+  // }).catch(err=>console.log(err));
+  // booksModel.findOneAndUpdate({authors:author}).then(data=>{
+  //   console.log(data.authors);
+  // });
 });
 
 module.exports = router;
