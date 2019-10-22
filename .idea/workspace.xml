@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/model/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Story.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1571415767055</updated>
       <workItem from="1571415773202" duration="5838000" />
-      <workItem from="1571650437091" duration="9904000" />
+      <workItem from="1571650437091" duration="10050000" />
+      <workItem from="1571736603392" duration="11063000" />
     </task>
     <servers />
   </component>
@@ -74,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
