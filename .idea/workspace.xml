@@ -6,7 +6,10 @@
       <change beforePath="$PROJECT_DIR$/model/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Story.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+=======
+>>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +25,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/javascripts" />
+=======
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +73,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571415767055</updated>
+<<<<<<< HEAD
       <workItem from="1571415773202" duration="22060000" />
+=======
+      <workItem from="1571415773202" duration="5838000" />
+      <workItem from="1571650437091" duration="9904000" />
+>>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
     </task>
     <servers />
   </component>
