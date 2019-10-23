@@ -4,8 +4,10 @@ const  Schema = mongoose.Schema;
 
 const personSchema = new Schema({
         name: String,
-        age: Number,
-        stories: [{ type: Schema.Types.ObjectId, ref: 'StorySchema' }]
+        stories: [{
+            type: Schema.Types.ObjectId,
+            ref: 'StorySchema',
+        }],
 });
 
 

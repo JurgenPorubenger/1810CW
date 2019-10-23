@@ -7,9 +7,13 @@
       <change beforePath="$PROJECT_DIR$/model/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Story.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
 =======
 >>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
+=======
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+>>>>>>> 57f3f254c7fd2289d236a3c81289cc6a27e51742
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +81,13 @@
       <workItem from="1571415773202" duration="22060000" />
 =======
       <workItem from="1571415773202" duration="5838000" />
+<<<<<<< HEAD
       <workItem from="1571650437091" duration="9904000" />
 >>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
+=======
+      <workItem from="1571650437091" duration="10050000" />
+      <workItem from="1571736603392" duration="11063000" />
+>>>>>>> 57f3f254c7fd2289d236a3c81289cc6a27e51742
     </task>
     <servers />
   </component>
@@ -90,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
