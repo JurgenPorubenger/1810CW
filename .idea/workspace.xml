@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469bcc5d-c89e-4712-91bd-cc683ec641dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Edition.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Story.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-<<<<<<< HEAD
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-=======
->>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
-=======
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
->>>>>>> 57f3f254c7fd2289d236a3c81289cc6a27e51742
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +21,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SNtEIF2hxU2TDJ7DZy0J0u0JPv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
-    <property name="ignore_missing_gitignore" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/javascripts" />
-=======
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arkh\Desktop\1810CW\model" />
       <recent name="$PROJECT_DIR$/public/javascripts" />
       <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$" />
@@ -77,17 +67,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571415767055</updated>
-<<<<<<< HEAD
-      <workItem from="1571415773202" duration="22060000" />
-=======
       <workItem from="1571415773202" duration="5838000" />
-<<<<<<< HEAD
-      <workItem from="1571650437091" duration="9904000" />
->>>>>>> 7298da34dc08b8c180260276230dedbd3144efb9
-=======
       <workItem from="1571650437091" duration="10050000" />
       <workItem from="1571736603392" duration="11063000" />
->>>>>>> 57f3f254c7fd2289d236a3c81289cc6a27e51742
     </task>
     <servers />
   </component>

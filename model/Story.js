@@ -3,11 +3,15 @@ const  Schema = mongoose.Schema;
 
 
 const storySchema = Schema({
-        author: {
-                type: [Schema.Types.ObjectId],
+    title: String,
+    author: [{
+                type: Schema.Types.ObjectId,
                 ref: 'PersonSchema',
-        },
-        title: String,
+            }],
+    edition: [{
+                type: Schema.Types.ObjectId,
+                ref: 'EditionSchema',
+             }]
 });
 
 

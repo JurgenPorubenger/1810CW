@@ -9,13 +9,19 @@ block content
     form(action='/2', method='POST')
       input(type='text' name='book' placeholder='book' )
       input(type='submit' )
-  h1 Add ID
+  h1 Add Edition
     form(action='/3', method='POST')
-      input(type='text' name='book' placeholder='book' )
-      input(type='text' name='author' placeholder='author')
-      input(type='submit')
-  h1 Check
+      input(type='text' name='edition' placeholder='edition' )
+      input(type='submit' )
+  h1 Add ID and Edition
     form(action='/4', method='POST')
       input(type='text' name='book' placeholder='book' )
       input(type='text' name='author' placeholder='author')
+      input(type='text' name='edition' placeholder='edition')
+      input(type='submit')
+  h1 Check
+    form(action='/5', method='POST')
+      input(type='text' name='book' placeholder='book' )
+      input(type='text' name='author' placeholder='author')
+      input(type='text' name='edition' placeholder='edition')
       input(type='submit')
